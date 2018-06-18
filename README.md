@@ -13,7 +13,7 @@ bh = BinanceHelper.BinanceHelper(api_key, api_secret, base_currency, coin_curren
 # Decide to sell.
 if SELL:
   
-  # Sell entire holding of coin_currency into base_currency.
+  # transfer entire holding of coin_currency into base_currency.
   bh.sell()
 
 # Decide to buy.
